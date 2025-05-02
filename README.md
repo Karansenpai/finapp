@@ -84,9 +84,14 @@ cd finaura
 ```
 
 # 3. Set up environment variables
-#    - FIREBASE_API_KEY
-#    - GEMINI_API_KEY
-#    - etc. (create a `.env.local` file)
+
+# In Frontend
+    - Clerk_secret_key
+# In Backend
+    - api_key.json (Firebase key)
+    - .env ( Stripe key , Clerk key)
+    - Gemini Api key
+
 
 # 4. Install frontend dependencies
 npm install
